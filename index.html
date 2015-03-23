@@ -39,11 +39,9 @@ This demo is based in the "quick-start" doc.</p>
 
 <p>To setup Firebase ( @ onCreate )...</p>
 
-<div class="highlight highlight-java"><pre>    <span class="pl-smi">Firebase</span><span class="pl-k">.</span>setAndroidContext(<span class="pl-v">this</span>);</pre></div>
-
-<p>and to connect to a specific database in Firebase ...</p>
-
-<div class="highlight highlight-java"><pre> <span class="pl-smi">Firebase</span> myFirebaseRef <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">Firebase</span>(<span class="pl-s"><span class="pl-pds">"</span>https://&lt;your-firebase&gt;.firebaseio.com/<span class="pl-pds">"</span></span>);</pre></div>
+<div class="highlight highlight-java"><pre>    <span class="pl-smi">Firebase</span><span class="pl-k">.</span>setAndroidContext(<span class="pl-v">this</span>);
+<span class="pl-c1">...</span>
+    <span class="pl-smi">Firebase</span> myFirebaseRef <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">Firebase</span>(<span class="pl-s"><span class="pl-pds">"</span>https://&lt;your-firebase&gt;.firebaseio.com/<span class="pl-pds">"</span></span>);</pre></div>
 
 <p>To read data from Firebase ...</p>
 
