@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppTestFirebase</string>
+
+    <string name="hello_world">Data in Firebase: (cloud)</string>
+    <string name="action_settings">Settings</string>
+    <string name="send">Send data below</string>
+</resources>
